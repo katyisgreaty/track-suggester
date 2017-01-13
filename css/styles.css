@@ -5,6 +5,7 @@
   font-weight: bold;
   font-size: 30px;
   font-family: 'Metamorphous', cursive;
+  border: 10px solid #e52a6f;
 }
 .panel {
   border: none;
@@ -28,24 +29,31 @@ body {
 
 .minky {
   text-align: center;
-  height: 400px;
+  height: 420px;
   padding-bottom: 28px;
-  background-color: #67aeca;
   background-image: url("../img/ball.jpeg");
   background-position: center;
   color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron{
+  border-top: 18px solid #67aeca;
+  border-bottom: 20px solid #67aeca;
 }
 
 .minky h1 {
   font-family: 'Metamorphous', cursive;
-  padding-bottom: 32px;
-  font-size: 90px;
+  padding-bottom: 20px;
+  font-size: 100px;
+  font-weight: bold;
 }
 
 .minky h4 {
   padding-bottom: 0px;
-  padding-top: 58px;
-  padding-left: 88px;
+  padding-top: 44px;
+  padding-left: 98px;
   font-size: 24px;
   color: black;
   max-width: 400px;
@@ -61,4 +69,5 @@ label {
 p {
   font-size: 70px;
   color: white;
+  font-family: 'Source Sans Pro', sans-serif;
 }

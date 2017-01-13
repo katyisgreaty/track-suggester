@@ -18,6 +18,10 @@ $(document).ready(function(){
     var contentQuestion = $("input:radio[name=content]:checked").val()
     var bigBusinessQuestion = $("input:radio[name=bigbusiness]:checked").val()
 
+    if (frontOrBackQuestion && contentQuestion && bigBusinessQuestion) {
     $("#result").text("You should choose the " + whichCharacter(frontOrBackQuestion,contentQuestion,bigBusinessQuestion) +" track!")
+  } else {
+    alert("Answer all of the questions and try again!");
+  }
   });
 });
