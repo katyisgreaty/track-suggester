@@ -11,44 +11,62 @@
 
   <body>
     <div class = "jumbotron">
-      <h1>Epicodus Track Suggester</h1>
-    <h4>Having trouble picking a track in Epicodus? It can be hard to decide. But don't worry, take this quiz to help you choose what's best for you!</h4>
+      <h1>EpiCrystal Ball</h1>
+      <h4>Having trouble picking a track in Epicodus? It can be hard to decide. But don't worry, take this quiz to find out which option is best for you!</h4>
     </div>
     <div class="container">
       <div class="row">
         <div class="panel panel-default">
-
           <div class="panel-heading">
-            <p class="panel-title">Are you leaning towards front end or back end development?</h2>
+            <h2 class="panel-title">Are you leaning towards front end or back end development?</h2>
           </div>
-          <form class="quiz">
+          <div class="panel-body">
+            <form class="quiz">
+              <div class="radio" class="form-control">
+                <label>
+                  <input type="radio" name="frontorback" value="front">
+                  Definitely front end! I love styling and making a user's experience fantastic.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="frontorback" value="back">
+                  Back end for sure. Who cares about what it looks like when I can make it do so much?
+                </label>
+              </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">What inspired you to become a developer?</h2>
+          </div>
+          <div class="panel-body">
             <div class="radio" class="form-control">
               <label>
-                <input type="radio" name="frontorback" value="front">
-                Definitely front end! I love styling and making a user's experience fantastic.
+                <input type="radio" name="inspiration" value="parents">
+                My parents. They always pushed me to get into computers because they are the way of the future!
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="frontorback" value="back">
-                Back end for sure. Who cares about what it looks like when I can make it do so much?
+                <input type="radio" name="inspiration" value="pressure">
+                Peer pressure. All my friends are going into the tech field.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="inspiration" value="passion">
+                Passion. Stereotypical shit about loving to solve problems and find out how things work that makes people who didn't grow up weirdly obsessed with the inner workings of computers feel bad.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="inspiration" value="stability">
+                Stability. I had a lame job before and now I need a decent career that pays enough to live comfortably. Also, the lax dress codes and young culture at most tech companies doesn't hurt.
               </label>
             </div>
           </div>
-
-          <h3>What inspired you to become a developer?</h3>
-          <div class="radio" class="form-control">
-            <label>
-              <input type="radio" name="inspiration" value="parents">
-              My parents. They always pushed me to get into computers because they are the way of the future!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="content" value="light">
-              No thank you, heavy loads of data aren't my fave.
-            </label>
-          </div>
+        </div>
 
           <h3>How long have you been coding?</h3>
           <div class="radio" class="form-control">
