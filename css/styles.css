@@ -1,1 +1,25 @@
-h1 
+.swirl {
+  background-image: url("../img/galaxy2.jpeg");
+  background-position: center;
+  color: #5A9CC1;
+  font-weight: bold;
+  font-size: 30px;
+}
+.panel {
+  border: none;
+}
+
+.panel-heading {
+  background-image: url("../img/galaxy1.jpeg");
+  background-position: top;
+}
+
+.panel-title {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+body {
+  background-color: green;
+}
