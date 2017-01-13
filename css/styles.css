@@ -1,17 +1,19 @@
 .swirl {
   background-image: url("../img/galaxy2.jpeg");
   background-position: center;
-  color: #5A9CC1;
+  color: white;
   font-weight: bold;
   font-size: 30px;
+  font-family: 'Metamorphous', cursive;
 }
 .panel {
   border: none;
 }
 
-.panel-heading {
-  background-image: url("../img/galaxy1.jpeg");
+.panel-default > .panel-heading {
+  background-color: #5f0f4e;
   background-position: top;
+  font-family: 'Metamorphous', cursive;
 }
 
 .panel-title {
@@ -21,5 +23,42 @@
 }
 
 body {
-  background-color: green;
+  background-image: url("../img/galaxy1.jpeg");
+}
+
+.minky {
+  text-align: center;
+  height: 400px;
+  padding-bottom: 28px;
+  background-color: #67aeca;
+  background-image: url("../img/ball.jpeg");
+  background-position: center;
+  color: white;
+}
+
+.minky h1 {
+  font-family: 'Metamorphous', cursive;
+  padding-bottom: 32px;
+  font-size: 90px;
+}
+
+.minky h4 {
+  padding-bottom: 0px;
+  padding-top: 58px;
+  padding-left: 88px;
+  font-size: 24px;
+  color: black;
+  max-width: 400px;
+  margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+p {
+  font-size: 70px;
+  color: white;
 }
