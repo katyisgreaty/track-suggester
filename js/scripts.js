@@ -1,12 +1,12 @@
-var whichCharacter = function (barneyq, tedq) {
+var whichCharacter = function (rubyq, phpq, csharpq) {
   if (rubyq === "front") {
     return "Ruby";
   } else if (phpq === "heavy") {
     return "PHP";
-  } else if (tedq === "romance") {
-    return "Ted";
+  } else if (csharpq === "big") {
+    return "C#";
   } else {
-    return "Marshall";
+    return "Java";
   }
 }
 
@@ -14,10 +14,10 @@ $(document).ready(function(){
   $(".quiz").submit(function(event){
     event.preventDefault();
 
-    var frontOrBackQuestion = $("input:radio[name=future]:checked").val()
-    var contentQuestion = $("input:radio[name=hobby]:checked").val()
-    var hobbyQuestion = $("input:radio[name=hobby]:checked").val()
+    var frontOrBackQuestion = $("input:radio[name=frontorback]:checked").val()
+    var contentQuestion = $("input:radio[name=content]:checked").val()
+    var bigBusinessQuestion = $("input:radio[name=bigbusiness]:checked").val()
 
-    $("#result").text("You are " + whichCharacter(frontOrBackQuestion,contentQuestion,hobbyQuestion) +"!")
+    $("#result").text("You are " + whichCharacter(frontOrBackQuestion,contentQuestion,bigBusinessQuestion) +"!")
   });
 });
