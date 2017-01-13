@@ -10,79 +10,135 @@
   </head>
 
   <body>
-    <h1>Epicodus Track Suggester</h1>
-    <h5>Having trouble picking a track in Epicodus? It can be hard to decide. But don't worry, take this quiz to help you choose what's best for you!</h5>
+    <div class = "jumbotron">
+      <h1>Epicodus Track Suggester</h1>
+    <h4>Having trouble picking a track in Epicodus? It can be hard to decide. But don't worry, take this quiz to help you choose what's best for you!</h4>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="panel panel-default">
 
-    <h3>Are you leaning towards front end or back end development?</h3>
-    <form class="quiz">
-      <div class="radio" class="form-control">
-        <label>
-          <input type="radio" name="frontorback" value="front">
-          Definitely front end! I love styling and making a user's experience fantastic.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="frontorback" value="back">
-          Back end for sure. Who cares about what it looks like when I can make it do so much?
-        </label>
-      </div>
+          <div class="panel-heading">
+            <p class="panel-title">Are you leaning towards front end or back end development?</h2>
+          </div>
+          <form class="quiz">
+            <div class="radio" class="form-control">
+              <label>
+                <input type="radio" name="frontorback" value="front">
+                Definitely front end! I love styling and making a user's experience fantastic.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="frontorback" value="back">
+                Back end for sure. Who cares about what it looks like when I can make it do so much?
+              </label>
+            </div>
+          </div>
+
+          <h3>What inspired you to become a developer?</h3>
+          <div class="radio" class="form-control">
+            <label>
+              <input type="radio" name="inspiration" value="parents">
+              My parents. They always pushed me to get into computers because they are the way of the future!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="content" value="light">
+              No thank you, heavy loads of data aren't my fave.
+            </label>
+          </div>
+
+          <h3>How long have you been coding?</h3>
+          <div class="radio" class="form-control">
+            <label>
+              <input type="radio" name="experience" value="lots">
+              Many years. I don't even know why I'm enrolled in Epicodus, to be honest.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="med">
+              6 months - 1 year. I have a bit of experience but I still have a lot to learn
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="little">
+              2 - 6 months. I have taught myself a little but I am excited to learn a lot more!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="vlittle">
+              0 - 2 months. I have only dinked around with it but don't really know much.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="experience" value="neg">
+              - 2 years. I have actually never used a computer. Are floppy disks still a thing? I never know what the kids are into these days.
+            </label>
+          </div>
 
 
-      <h3>Do you want to deal with content-heavy websites mostly?</h3>
-      <div class="radio" class="form-control">
-        <label>
-          <input type="radio" name="content" value="heavy">
-          Yes, lay it on me! I want to work with large complex data systems, like the kind found in government work. What?! It's a steady paycheck!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="content" value="light">
-          No thank you, heavy loads of data aren't my fave.
-        </label>
-      </div>
+          <h3>Do you want to deal with content-heavy websites mostly?</h3>
+          <div class="radio" class="form-control">
+            <label>
+              <input type="radio" name="content" value="heavy">
+              Yes, lay it on me! I want to work with large complex data systems, like the kind found in government work. What?! It's a steady paycheck!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="content" value="light">
+              No thank you, heavy loads of data aren't my fave.
+            </label>
+          </div>
 
 
-      <h3>Would you prefer to work for a larger business such as Microsoft?</h3>
-      <div class="radio" class="form-control">
-        <label>
-          <input type="radio" name="bigbusiness" value="big">
-          That sounds great! I love job security.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="bigbusiness" value="small">
-          No, I'd rather work for a smaller company or a startup. More risk but more reward!
-        </label>
-      </div>
+          <h3>Would you prefer to work for a larger business such as Microsoft?</h3>
+          <div class="radio" class="form-control">
+            <label>
+              <input type="radio" name="bigbusiness" value="big">
+              That sounds great! I love job security.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bigbusiness" value="small">
+              No, I'd rather work for a smaller company or a startup. More risk but more reward!
+            </label>
+          </div>
 
-      <h3>Which Harry Potter character do you most identify with? (Totally revevant...kind of... not really)</h3>
-      <div class="radio" class="form-control">
-        <label>
-          <input type="radio" name="persona" value="harry">
-          Harry. I love being the center of attention but pretending it was unwantingly thrust upon me. Also I'm a little stupider than I should be.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="persona" value="hermione">
-          Hermione. I was bullied when I was younger because people are jerks, but now I am pretty much the best thing since sliced bread, so...
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="persona" value="cormac">
-          Cormac. I never get the attention I deserve, even when I am clearly better than the other options. Like when Ron got picked to be on the Gryffindor quidditch team over me. Everyone always picks Ron over me. I bet you even thought this spot was going to be Ron and not me! Some people have all the luck.
-        </label>
-      </div>
+          <h3>Which Harry Potter character do you most identify with? (Totally revevant...kind of... not really)</h3>
+          <div class="radio" class="form-control">
+            <label>
+              <input type="radio" name="persona" value="harry">
+              Harry. I love being the center of attention but pretending it was unwantingly thrust upon me. Also I'm a little stupider than I should be.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="persona" value="hermione">
+              Hermione. I was bullied when I was younger because people are jerks, but now I am pretty much the best thing since sliced bread, so...
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="persona" value="cormac">
+              Cormac. I never get the attention I deserve, even when I am clearly better than the other options. Like when Ron got picked to be on the Gryffindor quidditch team over me. Everyone always picks Ron over me. I bet you even thought this spot was going to be Ron and not me! Some people have all the luck.
+            </label>
+          </div>
 
-      </div>
+        </div>
 
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
 
-    <p id="result">Junk</p>
+      <p id="result"></p>
+    </div>
+
   </body>
 </html>
