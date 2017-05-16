@@ -1,6 +1,6 @@
 # _EpiCrystal Ball_
 
-#### _Web page with quiz about Epicodus Tracls, 1/13/17_
+#### _Web page with quiz about Epicodus Tracks, 1/13/17_
 
 #### By _**Katy Daviscourt**_
 
