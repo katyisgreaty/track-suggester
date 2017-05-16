@@ -8,7 +8,7 @@
 
 _This web page was designed to help Epicodus students choose which track to pursue. The choices are Ruby, PHP, C# and Java. There are 6 questions in the quiz, though only 3 of them affect the outcome. Files can be found in the repository in github at https://github.com/katyisgreaty/track-suggester _
 
-## Setup/Installation Requirements
+## Setup/Installation Requirements 
 
 * _Open the page_
 * _Read the header and explanation_
